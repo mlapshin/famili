@@ -3,3 +3,5 @@
 *.swo
 pkg/*
 .idea
+spec/db/testdb.sqlite3
+

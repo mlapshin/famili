@@ -36,7 +36,7 @@ end
 
 PKG_FILES = FileList[ '[a-zA-Z]*', 'generators/**/*', 'lib/**/*', 'spec/**/*' ]
 
-require 'lib/famili'
+require File.dirname(__FILE__) + '/lib/famili'
 spec = Gem::Specification.new do |s|
   s.name = "famili"
   s.version = Famili::VERSION 
